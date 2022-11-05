@@ -1,0 +1,28 @@
+<!-- ./views/layouts/main.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie List</title>
+  <!-- include css file here 可縮寫link:css 按下tab 自動產生-->
+  {{!-- 從 public 往下算 --}}
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+</head>
+<body>
+  <!-- navigation -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Movie List</a>
+    </div>
+  </nav>
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+  {{!-- 三個大括號 {{{ }}} 表示body傳入，會被當成html，兩個大括號{{ }}則是內容會被當成純文字 --}}
+
+  <!-- include js file here 可縮寫link:js 按下tab 自動產生-->
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+</body>
+</html>
