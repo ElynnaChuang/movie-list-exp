@@ -11,7 +11,7 @@
 
 
 # 執行專案
-+ 請先確認有安裝 node.js 與 npm
+請先確認有安裝 node.js 與 npm
 
 1. 將專案 clone 到本地
 
@@ -35,7 +35,7 @@
    ```
    
 # 開發工具
-Node.js 16.17.1
-Express 4.16.4
-Express-Handlebars 3.0.0
-Bootstrap 5.1.3
+- Node.js 16.17.1
+- Express 4.16.4
+- Express-Handlebars 3.0.0 
+- Bootstrap 5.1.3
